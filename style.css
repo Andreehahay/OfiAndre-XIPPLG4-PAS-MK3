@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Lobster";
+    src: url(Font/Lobster.ttf)
+    format("truetype");
+
+}
+
+* {
+    box-sizing: border-box !important;
+    transition: ease all 0.5s;
+}
+
+.banner_ROG
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #292929;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.NamaWeb {
+    font-family: 'Lobster';
+    font-size: 80px;
+    position: relative;
+    top: 70px;
+}
+
+.banner_text {
+    position: relative;
+    top: 30px;
+}
+
+.banner_section {
+    width: 100%;
+    float: left;
+    background-image: url(image/banner-bg.png);
+    height: auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.read_bt {
+    width: 170px;
+    float: left;
+    padding-top: 80px;
+}
+
+.read_bt a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #252525;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.read_bt a:hover {
+    color: #ffffff;
+    background-color: #f5ddb6;
+}
+
